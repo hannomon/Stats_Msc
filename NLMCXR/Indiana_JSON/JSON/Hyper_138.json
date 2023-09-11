@@ -1,0 +1,23 @@
+{
+  "max_epochs": 500,
+  "window_size": 5,
+  "early_stopping": 1,
+  "model_type": "Image",
+  "learning_rate": 0.00001,
+  "text_learning_rate": 0.00001,
+  "batch_size": 32,
+  "training_bool": 1,
+  "test_bool": 1,
+  "heat_bool": 1,
+  "SMOTE_bool": 0,
+  "sampler_bool": 1,
+  "Aug_bool": 0,
+  "clahe_bool": 1,
+  "labeling": "binary",
+  "nn_l": "Own",
+  "train_noise": 0,
+  "valid_noise": 0,
+  "test_noise": 0,
+  "heat_noise": 0,
+  "target_based": 0
+}
